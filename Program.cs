@@ -17,10 +17,16 @@ public class FirstClassInOpps
 {
 public static void Main()
 {
-   Console.WriteLine("Hey!! what's your name");
-   string name = Console.ReadLine();
-   Introduction fcObj = new Introduction();
-   fcObj.intro(name , 23);
+//    Console.WriteLine("Hey!! what's your name");
+//    string name = Console.ReadLine();
+//    Introduction fcObj = new Introduction();
+//    fcObj.intro(name , 23);
+
+    //  Car carObj = new Car();
+    //  carObj.DisplayCarInfo("ABP123");
+
+    
 }
+
 }
  }
