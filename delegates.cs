@@ -1,6 +1,7 @@
+
+using System;
 namespace delegates
 {
-
 public class Dele1
 {
     public void dele1F(){
@@ -17,8 +18,10 @@ public delegate void Mydelegate();
 
     public static void Main()
     {
-       dele1 DeleObj = new dele1();
-       Mydelegate md = new Mydelegate(Deleobj.dele1F);
+       Dele1 DeleObj = new Dele1();
+        Mydelegate md = new Mydelegate(DeleObj.dele1F);
+        md+= DeleObj.dele2F;
+        md();
     }
 }
 }
