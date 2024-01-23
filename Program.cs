@@ -4,8 +4,8 @@
 
  public class Introduction
  {
-    //  string Name;
-    //  int age;
+     string Name;
+     int age;
 
      public void intro(string name,int age)
      {
@@ -17,14 +17,10 @@ public class FirstClassInOpps
 {
 public static void Main()
 {
-//    Console.WriteLine("Hey!! what's your name");
-//    string name = Console.ReadLine();
-//    Introduction fcObj = new Introduction();
-//    fcObj.intro(name , 23);
-
-    //  Car carObj = new Car();
-    //  carObj.DisplayCarInfo("ABP123");
-
+   Console.WriteLine("Hey!! what's your name");
+   string name = Console.ReadLine();
+   Introduction fcObj = new Introduction();
+   fcObj.intro(name , 23);
     
 }
 
